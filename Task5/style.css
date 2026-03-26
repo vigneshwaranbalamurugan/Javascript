@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+.option {
+    display: block;
+    background: #180465;
+    margin: 8px 0;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+.option:hover {
+    background: #281a77;
+}
+
+#prev,#next{
+    padding: 10px;
+    width: 100px;
+}
+
+#prev:hover,#next:hover{
+    cursor: pointer;
+}

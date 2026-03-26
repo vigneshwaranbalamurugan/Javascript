@@ -1,0 +1,29 @@
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 300px;
+  margin: auto;
+}
+
+li {
+  background: white;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: grab;
+  border: 2px solid transparent;
+  transition: 0.2s ease;
+}
+
+li.dragging {
+  opacity: 0.5;
+}
+
+li.hovered {
+  border: 2px dashed #007bff;
+  background: #eaf3ff;
+}
