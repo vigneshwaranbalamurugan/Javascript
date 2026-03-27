@@ -1,0 +1,22 @@
+li {
+  background-color: rgb(90, 87, 183);
+  list-style: none;
+  border-radius: 12px;
+  width: 100vh;
+  padding: 2%;
+  margin: 2%;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(77, 135, 200);
+  list-style: none;
+  color: white;
+  border-radius: 10px;
+  width: 100vh;
+  padding: 2%;
+  margin: 2%;
+}
+
+#loading {
+  font-size: 40px;
+}
